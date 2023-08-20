@@ -1,0 +1,28 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.conteudo {
+    padding: 1rem;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.conteudo h1 {
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .conteudo {
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
